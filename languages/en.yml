@@ -10,10 +10,10 @@ action: Action
 clear: Clear Data
 description: Description
 disabled: Disabled
-detail: 详情
+detail: Details
 enabled: Enabled
 name: Name
-read_manual: 阅读使用手册
+read_manual: Read the manual
 reason: Reason
 reset: Reset Data
 result: Result
@@ -22,14 +22,14 @@ score: Score
 status_failed: Failed
 status_succeeded: Succeeded
 type: Type
-warning: 警告
+warning: Warning
 
 # Command
-command_date: 命令发送时间
-command_flood: 命令发送频繁，请稍后重试
+command_date: time of command delivery
+command_flood: Command sent frequently, please try again later
 command_lack: Lack of Parameter
 command_para: Incorrect Command Parameter
-command_received: 已接收到指令
+command_received: Command received
 command_type: Incorrect Command Type
 command_usage: Incorrect Usage
 
@@ -51,15 +51,15 @@ ot: OT Warning by Members
 rm: RM Jokes Warning
 welcome: Welcome Message
 keyword: Custom Keywords
-white: 放行白名单
-equal: 平等模式
-cancel: 取消置顶
+white: Release white list
+equal: Equal mode
+cancel: Cancel pin
 hold: Hold the Pinned Message
 channel: Entry Channel
 resend: Resend Invite Link Everyday
 
 # Debug
-evidence: 证据留存
+evidence: Evidence retention
 triggered_by: Triggered By
 
 # Emergency
@@ -71,26 +71,26 @@ protocol_1: Initiate Protocol 1
 transfer_channel: Transfer Channel
 
 # Error
-detail_kws_occupied: 会话被 {} 占用中
-error_channel_bind_reply: 绑定频道应回复转发自该频道的消息
-error_channel_bind_send: 机器人在绑定频道中发送消息失败
-error_exceed_button: 按钮个数超过 6 个
-error_exceed_kws: 关键词个数超过 100 条
-error_excced_raw: 设置的总体内容过长
-error_exceed_reply: 设置的回复内容过长
-error_kws_actions_invalid: 关键词触发行为设置有误
-error_kws_actions_conflict: 移除、禁言、封禁行为不可同时存在
-error_kws_destruct_invalid: 关键词回复自毁时间设置有误
-error_kws_modes_invalid: 关键词触发模式设置有误
-error_kws_modes_lack: 未指定关键词匹配模式
-error_kws_modes_conflict: 包含互斥的关键词匹配模式
-error_kws_none: 不存在该关键词
-error_kws_occupied: 已存在设置会话
-error_kws_target_invalid: 关键词触发对象设置有误
-error_markup_invalid: 按钮设置有误
-error_need_confirm: 需要附加 yes 参数以确认
-error_none: 无数据
-error_regex: 正则表达式有误
+detail_kws_occupied: The session is occupied by {}
+error_channel_bind_reply: The bind channel should reply to messages forwarded from that channel
+error_channel_bind_send: The bot failed to send a message in the bound channel
+error_exceed_button: More than 6 buttons
+error_exceed_kws: More than 100 keywords
+error_exceeded_raw: Overall content set is too long
+error_exceed_reply: Set reply content too long
+error_kws_actions_invalid: Wrong keyword trigger action
+error_kws_actions_conflict: Remove, ban and block actions cannot co-exist
+error_kws_destruct_invalid: The keyword reply self-destruct time was set incorrectly
+error_kws_modes_invalid: Wrong keyword trigger mode setting
+error_kws_modes_lack: Keyword match pattern not specified
+error_kws_modes_conflict: Contains mutually exclusive keyword matching patterns
+error_kws_none: Keyword does not exist
+error_kws_occupied: The setting session already exists
+error_kws_target_invalid: The keyword trigger target was set incorrectly
+error_markup_invalid: Wrong button set
+error_need_confirm: Additional yes parameter required to confirm
+error_none: No data
+error_regex: Error in regular expression
 
 # Group
 group_id: Group ID
