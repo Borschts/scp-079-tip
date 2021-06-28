@@ -96,7 +96,7 @@ error_regex: Error in regular expression
 group_id: Group ID
 group_name: Group Name
 inviter: Inviter
-leave_group: 退出群组
+leave_group: Exit the group
 leave_approve: Approve to Leave the Group
 leave_auto: Leave automatically
 reason_admin: Failed to Fetch Admin List
@@ -108,13 +108,13 @@ reason_user: Missing USER
 refresh: Refresh Admin Lists
 status_joined: Joined the Group
 status_left: Left the Group
-warning_leave_permissions: 本机器人的权限缺失，将严重影响机器人的正常工作，请及时参照使用手册赋予权限，否则机器人将退出本群组
-warning_leave_user: 检测到 USER 已不在群组中，而 USER 是本机器人运行所必须的辅助机器人，请及时处理该问题，否则机器人将退出本群组
+warning_leave_permissions: The lack of permissions for this robot will seriously affect the normal work of the robot, please refer to the user manual to grant permissions in time, otherwise the robot will quit the group
+warning_leave_user: USER has been detected as no longer being in the group. Since USER is a secondary robot necessary for the operation of this robot, please address this issue promptly, otherwise the robot will leave the group.
 
 # Program
-program_restart: 重启程序
-program_update: 更新程序
-program_updating: 程序正在执行更新
+program_restart: Program restart
+program_update: Program update
+program_updating: Program is updating
 
 # More
 privacy: Not Forwarded Due to Privacy Reason
@@ -146,15 +146,15 @@ user_score: User Score
 action_bind: Bind Channel
 action_channel: Adjust Invite Text
 action_close: Close Group Channel
-action_find_pin: 查询置顶消息
+action_find_pin: Search for the top message
 action_hold: Hold the Pinned Message
-action_kws: 调整关键词设置
-action_kws_add: 添加关键词
-action_kws_clear: 清空所有关键词
-action_kws_edit: 编辑关键词
-action_kws_remove: 移除关键词
-action_kws_show: 显示关键词设置
-action_kws_start: 发起自定义关键词设置会话
+action_kws: Adjust keyword settings
+action_kws_add: Add keywords
+action_kws_clear: Clear all keywords
+action_kws_edit: Edit keywords
+action_kws_remove: Remove keywords
+action_kws_show: Show keyword settings
+action_kws_start: Launch a custom keyword setting session
 action_open: Open Group Channel
 action_ot: Adjust OT Tip
 action_resend: Resend Group Link Message
@@ -164,47 +164,47 @@ action_welcome: Adjust Welcome Tip
 button_channel: Click to Join
 description_channel: Please click the button below to join the chat group.
 description_close: According to the group's settings, the group link will not be provided at this time. Please try again later
-description_kws: 请开始使用命令来设置所指定群组的自定义关键词，自于群组中发起设置会话时计算，您共有 600 秒的时间来调整，逾时无效。
+description_kws: Please start using the command to set the custom keywords for the specified group. You have 600 seconds from the time the setting session is initiated in the group to make adjustments.
 description_ot: OT Warning
 description_rm: Please do not joke about the rm command
 description_welcome: Hello $mention_name
-kws_actions: 关键词触发行为
-kws_actions_reply: 回复
-kws_actions_delete: 删除
-kws_actions_kick: 移除用户
-kws_actions_ban: 封禁用户
-kws_actions_ban_time: 封禁用户 {} 秒
-kws_actions_restrict: 禁言用户
-kws_actions_restrict_time: 禁言用户 {} 秒
-kws_destruct: 自毁时间
-kws_key: 关键词编号
-kws_modes: 关键词触发模式
-kws_modes_caption: 仅匹配媒体附文
-kws_modes_case: 大小写敏感
-kws_modes_exact: 全匹配
-kws_modes_forward: 仅匹配被转发的消息
-kws_modes_include: 包含匹配
-kws_modes_join: 仅匹配入群消息
-kws_modes_name: 仅匹配名称
-kws_modes_pure: 去除名称中的干扰
-kws_modes_regex: 正则匹配
-kws_raw: 设置存档
-kws_target: 关键词触发对象
-kws_target_admin: 管理员
-kws_target_all: 全部成员
-kws_target_member: 群成员
-kws_total: 关键词总数
-last_editor: 上一个编辑者
-modified_by: 最后编辑者
+kws_actions: Keyword triggered actions
+kws_actions_reply: Reply
+kws_actions_delete: Delete
+kws_actions_kick: Remove user
+kws_actions_ban: Ban a user
+kws_actions_ban_time: Ban user {} seconds
+kws_actions_restrict: Ban a user
+kws_actions_restrict_time: Ban user {} seconds
+kws_destruct: self-destruct time
+kws_key: keyword number
+kws_modes: keyword trigger mode
+kws_modes_caption: only matches media attachments
+kws_modes_case: case-sensitive
+kws_modes_exact: match all
+kws_modes_forward: Match only forwarded messages
+kws_modes_include: Include match
+kws_modes_join: only matches incoming messages
+kws_modes_name: matches only the name
+kws_modes_pure: removes interference from the name
+kws_modes_regex: regular match
+kws_raw: set archive
+kws_target: keyword trigger object
+kws_target_admin: administrator
+kws_target_all: All members
+kws_target_member: group member
+kws_total: total number of keywords
+last_editor: last editor
+modified_by: Last edited by
 pinned_message: Pinned Message
-reply_new: 新设置
-reply_old: 旧设置存档
-rule_keyword: 群组自定义关键词
-statics_count: 已触发次数
-statics_today: 本日触发次数
-type_ot: 离题提醒
-type_rm: RM 笑话提醒
-type_welcome: 入群欢迎消息
+reply_new: New settings
+reply_old: Archive of old settings
+rule_keyword: Group custom keywords
+statics_count: number of triggers
+statics_today: number of triggers for this day
+type_ot: off-topic reminders
+type_rm: RM joke reminder
+type_welcome: welcome message to the group
 
 # Symbol
 colon: ": "
@@ -230,12 +230,12 @@ watch_delete: Watch Delete
 watch_user: Watched User
 
 # Unit
-seconds: 秒
-times: 次
+seconds: seconds
+times: times
 
 # Version
-git_change: 本地修改
-git_date: 提交时间
-git_hash: 哈希值
-project: 项目编号
-version: 版本
+git_change: Git change
+git_date: Push time
+git_hash: Hash
+project: Project
+version: Version
